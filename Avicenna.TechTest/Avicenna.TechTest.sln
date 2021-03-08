@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avicenna.TechTest", "Avicenna.TechTest\Avicenna.TechTest.csproj", "{A9B926C2-0A35-4F08-A011-50C35F73A54A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avicenna.TechTest.Tests", "Avicenna.TechTest.Tests\Avicenna.TechTest.Tests.csproj", "{B0ECAAA8-9A88-42F1-858B-C5670D07742B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9B926C2-0A35-4F08-A011-50C35F73A54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B926C2-0A35-4F08-A011-50C35F73A54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B926C2-0A35-4F08-A011-50C35F73A54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B926C2-0A35-4F08-A011-50C35F73A54A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0ECAAA8-9A88-42F1-858B-C5670D07742B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0ECAAA8-9A88-42F1-858B-C5670D07742B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0ECAAA8-9A88-42F1-858B-C5670D07742B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0ECAAA8-9A88-42F1-858B-C5670D07742B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75786C77-9BF0-4313-92E1-4D7AA55F9911}
+	EndGlobalSection
+EndGlobal
