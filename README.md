@@ -14,7 +14,8 @@ Clone this repo, build it, and make sure it runs. You will need .NET Core SDK 3.
 
 - Restore packages: `dotnet restore`
 - Build it: `dotnet build`
-- Run it: `dotnet run --project ./Avicenna.TechTest/Avicenna.TechTest/Avicenna.TechTest.csproj`
+- Run it: `dotnet run --project ./Avicenna.TechTest/Avicenna.TechTest.csproj`
+- Open it: `https://localhost:5001/`
 
 ## Some notes
 
