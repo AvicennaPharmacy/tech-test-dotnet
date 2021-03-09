@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Avicenna.TechTest.Models;
+using Avicenna.TechTest.Data;
 
 namespace Avicenna.TechTest.Services
 {
     public interface IAvicennaApiClient
     {
-        Task<IEnumerable<PharmacyViewModel>> GetPharmacies();
+        Task<IEnumerable<Pharmacy>> GetPharmacies();
     }
 }

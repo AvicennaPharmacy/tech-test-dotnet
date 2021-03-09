@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Avicenna.TechTest.Controllers;
-using Avicenna.TechTest.Models;
+using Avicenna.TechTest.Data;
 using Avicenna.TechTest.Services;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
@@ -15,14 +15,14 @@ namespace Avicenna.TechTest.Tests.Controllers
         public async Task Index_ReturnsAllPharmacies()
         {
             // Arrange
-            var pharmacyList = new List<PharmacyViewModel>()
+            var pharmacyList = new List<Pharmacy>()
             {
-                new PharmacyViewModel()
+                new Pharmacy()
                 {
                     Id = "abc",
                     BusinessName = "Test Pharmacy 1"
                 },
-                new PharmacyViewModel()
+                new Pharmacy()
                 {
                     Id = "def",
                     BusinessName = "Test Pharmacy 2"
@@ -37,7 +37,7 @@ namespace Avicenna.TechTest.Tests.Controllers
             // Assert
             var result = await controller.Index() as ViewResult;
             Assert.IsInstanceOf<ViewResult>(result);
-            IEnumerable<PharmacyViewModel> model = result.ViewData.Model as IEnumerable<PharmacyViewModel>;
+            IEnumerable<Pharmacy> model = result.ViewData.Model as IEnumerable<Pharmacy>;
             // Replace with test for API client being called and checking results
             Assert.AreEqual(true, false);
         }
