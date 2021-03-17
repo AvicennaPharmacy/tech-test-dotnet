@@ -11,7 +11,7 @@ namespace Avicenna.TechTest.Models
         public string Address3 { get; set; }
         public string City { get; set; }
         public string Postcode { get; set; }
-        public string Email { get; set; }
+        public string TelephoneNumber { get; set; }
         public List<string> ServicesOffered { get; set; }
     }
 }
